@@ -1,1 +1,3 @@
-# cpp-learning
+# calculator
+
+a simple calculatro with c++
