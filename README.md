@@ -1,3 +1,3 @@
 # calculator
 
-a simple calculatro with c++
+a simple calculator with c++
