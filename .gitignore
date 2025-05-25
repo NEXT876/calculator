@@ -1,35 +1,37 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Objektdateien und ausführbare Dateien
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
 *.out
 *.app
 
+# Bibliotheken
+*.lib
+*.dll
+*.so
+*.dylib
+*.a
+
+# Build-Ordner
+build/
+bin/
+Debug/
+Release/
+
+# VSCode-Einstellungen
 .vscode/
 
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Temporäre Dateien
+*.log
+*.tmp
+*.temp
+
+# Backup und Swap-Dateien
+*~
+*.swp
